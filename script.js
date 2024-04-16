@@ -4,3 +4,7 @@ function toggleMenu() {
   menu.classList.toggle("open");
   icon.classList.toggle("open");
 }
+
+document.getElementById('logo').addEventListener('click', function() {
+  document.getElementById('profile').scrollIntoView({ behavior: 'smooth' });
+});

@@ -63,13 +63,17 @@ a:hover {
 }
 
 .logo:hover {
-  cursor: default;
+  cursor: pointer;
 }
 
 /* HAMBURGER MENU */
 
-#hamburger-nav {
-  display: none;
+#desktop-nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white; /* Adicione a cor de fundo desejada */
+  z-index: 1000; /* Certifique-se de que o menu esteja acima de outros elementos */
 }
 
 .hamburger-menu {
@@ -177,7 +181,7 @@ section {
 }
 
 .my-pic{
-  border-radius: 100%;
+  border-radius: 24%;
 }
 
 .section__text {
