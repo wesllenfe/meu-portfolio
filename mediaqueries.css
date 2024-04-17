@@ -45,6 +45,9 @@
   .about-containers {
     margin-top: 0;
   }
+  .article-container{
+    justify-content: flex-start;
+  }
 }
 
 @media screen and (max-width: 600px) {

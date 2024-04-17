@@ -357,7 +357,7 @@ section {
 article {
   display: flex;
   width: 10rem;
-  justify-content: space-around;
+  justify-content: flex-start;
   gap: 0.5rem;
 }
 
@@ -403,7 +403,7 @@ article .icon {
 
 .contact-info-upper-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
