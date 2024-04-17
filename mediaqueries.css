@@ -45,7 +45,7 @@
   .about-containers {
     margin-top: 0;
   }
-  .article-container{
+  .article-container.experience{
     justify-content: flex-start;
   }
 }
