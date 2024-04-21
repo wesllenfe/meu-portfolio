@@ -139,8 +139,12 @@ a:hover {
   transform: rotate(-45deg) translate(10px, -5px);
 }
 
-.hamburger-icon span:first-child {
-  transform: none;
+.hamburger-icon {
+  transition: transform 0.5s ease-in-out; 
+}
+
+.hamburger-icon span {
+  transition: all 0.5s ease-in-out;
 }
 
 .hamburger-icon span:first-child {
@@ -148,7 +152,6 @@ a:hover {
 }
 
 .hamburger-icon span:first-child {
-  transform: none;
 }
 
 /* SECTIONS */
